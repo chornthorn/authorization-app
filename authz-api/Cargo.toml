@@ -6,3 +6,13 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+authz-core = { path = "../authz-core" }
+actix-cors = "0.7.0"
+actix-web = "4.5.1"
+sqlx = { version = "0.7.4", features = ["macros", "mysql", "runtime-async-std", "chrono"] }
+dotenv = "0.15.0"
+env_logger = "0.11.3"
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.114"
+validator = { version = "0.17.0", features = ["derive"] }
+futures = "0.3.30"
