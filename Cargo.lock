@@ -509,6 +509,11 @@ dependencies = [
 [[package]]
 name = "authz-dto"
 version = "0.1.0"
+dependencies = [
+ "serde",
+ "serde_json",
+ "validator",
+]
 
 [[package]]
 name = "authz-entity"
