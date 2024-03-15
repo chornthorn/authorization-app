@@ -1,3 +1,5 @@
+mod router;
+
 use actix_web::{App, get, HttpResponse, HttpServer, Responder, web};
 use actix_web::middleware::{Logger, NormalizePath, TrailingSlash};
 use sqlx::mysql::MySqlPoolOptions;
@@ -41,6 +43,7 @@ pub async fn main() -> std::io::Result<()>{
                 name: app_config.name,
                 pool: app_config.pool.clone(),
             }))
+            .configure(router::configuration)
             .service(index)
     })
     .bind("0.0.0.0:3000")?
