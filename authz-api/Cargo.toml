@@ -1,6 +1,5 @@
-workspace = { members = ["authz-api", "authz-core", "authz-dto", "authz-entity", "authz-jwt", "authz-migration", "authz-service"] }
 [package]
-name = "authorization-app"
+name = "authz-api"
 version = "0.1.0"
 edition = "2021"
 

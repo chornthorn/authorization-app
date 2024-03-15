@@ -5,3 +5,31 @@ version = 3
 [[package]]
 name = "authorization-app"
 version = "0.1.0"
+
+[[package]]
+name = "authz-api"
+version = "0.1.0"
+
+[[package]]
+name = "authz-core"
+version = "0.1.0"
+
+[[package]]
+name = "authz-dto"
+version = "0.1.0"
+
+[[package]]
+name = "authz-entity"
+version = "0.1.0"
+
+[[package]]
+name = "authz-jwt"
+version = "0.1.0"
+
+[[package]]
+name = "authz-migration"
+version = "0.1.0"
+
+[[package]]
+name = "authz-service"
+version = "0.1.0"
