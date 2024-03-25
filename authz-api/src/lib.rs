@@ -33,7 +33,7 @@ pub async fn main() -> std::io::Result<()>{
         }
     };
 
-    let app_config = AppConfig::new("Todo Backend", pool);
+    let app_config = AppConfig::new("Authorization Backend", pool);
 
     HttpServer::new(move || {
         App::new()

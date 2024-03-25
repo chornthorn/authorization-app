@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DeveloperToolsToolWindowSettingsV1" lastSelectedContentNodeId="password-generator">
+    <developerToolsConfigurations>
+      <developerToolConfiguration developerToolId="password-generator" id="89630fad-9cd4-4485-8d0f-247d6bca90a0" name="Workbench">
+        <properties>
+          <property key="lettersMode" type="CONFIGURATION" value="dev.turingcomplete.intellijdevelopertoolsplugin._internal.tool.ui.generator.PasswordGenerator$LettersMode|ASCII_ALPHABET_ONLY_UPPERCASE" />
+          <property key="length" type="CONFIGURATION" value="kotlin.Int|20" />
+        </properties>
+      </developerToolConfiguration>
+    </developerToolsConfigurations>
+  </component>
+</project>

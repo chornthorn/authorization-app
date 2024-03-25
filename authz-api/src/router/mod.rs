@@ -4,6 +4,7 @@ mod permissions;
 mod scopes;
 mod resources;
 mod policies;
+mod starter;
 
 use actix_web::web;
 

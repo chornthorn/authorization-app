@@ -6,3 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+authz-jwt = { path = "../authz-jwt" }
+authz-dto = { path = "../authz-dto" }
+authz-entity = { path = "../authz-entity" }

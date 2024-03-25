@@ -1,14 +1,24 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+mod user;
+mod role;
+mod scope;
+mod resource;
+mod user_role;
+mod role_policy;
+mod resource_scope;
+mod permission;
+mod permission_policy;
+mod permission_scope;
+mod policy;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+pub use user::User;
+pub use role::Role;
+pub use scope::Scope;
+pub use resource::Resource;
+pub use user_role::UserRole;
+pub use role_policy::RolePolicy;
+pub use resource_scope::ResourceScope;
+pub use permission::Permission;
+pub use permission_policy::PermissionPolicy;
+pub use permission_scope::PermissionScope;
+pub use policy::Policy;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
